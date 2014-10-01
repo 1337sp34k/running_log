@@ -6,7 +6,7 @@ time = gets.chomp
 f = File.open("running_log.txt", "a")    #write distance to file
 f.write(dist + "\n")                 
 f.close
-f = File.open("running_time.txt", "a")  #write time to file(you may have noticed that i am writing to two files. This is becasue it i easier for me to deal with, so there fore easier for the user.)
+f = File.open("running_time.txt", "a")  #write time to file(you may have noticed that i am writing to two files. This is becasue it i easier for me to deal with, so therefore easier for the user.)
 f.write(time + "\n")
 f.close
 f = File.open("running_log.txt", "r")
